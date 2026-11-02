@@ -1,0 +1,7 @@
+# Use Python 3.10 or 3.11. These versions are pinned on purpose:
+# newer TensorFlow (Keras 3) breaks the TensorFlow.js export.
+tensorflow==2.15.0
+tensorflowjs==4.17.0
+numpy<2
+scikit-learn
+opencv-python

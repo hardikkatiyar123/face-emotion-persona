@@ -1,0 +1,30 @@
+# Dataset (FER-2013, ~35k images): download it from Kaggle, don't commit it
+training/data/
+
+# Python virtual environments
+training/venv/
+venv/
+.venv/
+env/
+
+# Trained Keras model and training-side labels (the web export in web/model/ IS committed)
+*.h5
+*.keras
+training/labels.json
+
+# Python caches
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+
+# Editors
+.vscode/
+.idea/
+
+# OS junk
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Vercel CLI
+.vercel/
